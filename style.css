@@ -1,0 +1,119 @@
+body{
+    background-color: #b2b1b1;
+
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #383838;
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+.navbar {
+    background-color: #383838;
+    border-radius: 10px;
+    position: static;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar ul li a:hover {
+    color: rgb(184, 183, 183);
+    text-decoration: none;
+    background-color: #383838;
+}
+
+.navbar ul li {
+    float: left;
+    padding: 23px;
+}
+
+.navbar ul {
+    overflow: auto;
+    list-style-type: none;
+}
+
+.bPad {
+    padding-bottom: 18px;
+}
+
+#searchbar {
+    float: right !important;
+    padding-right: 100px;
+}
+
+#searchbar input {
+    width: 350px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    height: 28px;
+    padding: 0px 10px;
+}
+
+#searchbtn {
+    float: right !important;
+    width: 28px;
+    height: 27px;
+    background-image: url("img/searchbtn.ico");
+    position: relative;
+    right: -405px;
+    top: 24px;
+}
+
+#div0 {
+    padding: 5px;
+    margin: auto;
+    width: 715px;
+}
+
+#heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+}
+
+.rmargin {
+    margin-right: 20px;
+}
+
+.asterisk {
+    color: red;
+}
+
+.smalltextField {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+.bigtextField {
+    width: 528px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+#radio1, #radio2, #radio3{
+    margin-top: 10px;
+}
+
+#comments{
+    width: 528px;
+    height: 150px;
+    border: 2px inset rgb(223, 221, 221);
+    border-radius: 10px;
+}
+
+#submit{
+    border-radius: 8px;
+}

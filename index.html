@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an employee application form.">
+    <meta name="keywords" content="application, form, employee, salary">
+    <meta name="author" content="Ren">
+    <title>Employee Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/employee.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li id="searchbar"><input type="search" name="search" placeholder="Search"></li>
+                <input type="button" id="searchbtn"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="div0">
+            <form action="form.php">
+                <div id="heading" class="bPad">Employment Application Form Example</div>
+                <div class="bPad flex">
+                    <div>First name <span class="asterisk"> *</span><br>
+                        <input type="text" class="rmargin smalltextField">
+                    </div>
+                    <div>Last name <span class="asterisk"> *</span><br>
+                        <input type="text" class="smalltextField">
+                    </div>
+                </div>
+                <div class="bPad">Email <span class="asterisk"> *</span> <br>
+                    <input type="email" class="bigtextField">
+                </div>
+                <div class="bPad">Portfolio website <br>
+                    <input type="email" class="bigtextField" placeholder="https://ren-cosmos.com">
+                </div>
+                <div class="bPad">Position you are applying for<span class="asterisk"> *</span> <br>
+                    <input type="email" class="bigtextField">
+                </div>
+                <div class="bPad flex">
+                    <div>Salary Requirements<br>
+                        <input type="text" class="rmargin smalltextField">
+                    </div>
+                    <div>When can you start? <br>
+                        <input type="text" class="smalltextField">
+                    </div>
+                </div>
+                <div class="bPad flex">
+                    <div>Phone <span class="asterisk"> *</span><br>
+                        <input type="text" class="rmargin smalltextField">
+                    </div>
+                    <div>Fax <br>
+                        <input type="text" class="smalltextField">
+                    </div>
+                </div>
+                <div class="bPad">Are you willing to relocate? <br>
+                    <input type="radio" name="radio" id="radio1"> Yes <br>
+                    <input type="radio" name="radio" id="radio2"> No <br>
+                    <input type="radio" name="radio" id="radio3"> Not sure <br>
+                </div>
+                <div class="bPad">Last company you worked for<br>
+                    <input type="email" class="bigtextField">
+                </div>
+                <div class="bPad">Reference / Comments / Questions <br>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="bpad">
+                    <input type="submit" value="Send Application" id="submit">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Author: Ren</p>
+        <a href="https://github.com/ren-cosmos" target="_blank"><img src="img/github.ico" alt="github"></a>
+        <a href="www.linkedin.com/in/shivamgrover360" target="_blank"><img src="img/linkedin.ico" alt="linkedin"></a>
+        <a href="https://www.sololearn.com/profile/26146619" target="_blank"><img src="img/sololearn.ico" alt="sololearn"></a>
+        <a href="mailto:rencosmos1st@gmail.com" target="_blank"><img src="img/gmail.ico" alt="gmail"></a>
+    </footer>
+</body>
+
+</html>

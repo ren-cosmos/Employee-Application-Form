@@ -31,47 +31,47 @@
             <form action="form.php">
                 <div id="heading" class="bPad">Employment Application Form Example</div>
                 <div class="bPad flex">
-                    <div>First name <span class="asterisk"> *</span><br>
-                        <input type="text" class="rmargin smalltextField">
+                    <div><label for="fname">First name<span class="asterisk"> *</span></label> <br>
+                        <input type="text" class="rmargin smalltextField" id="fname">
                     </div>
-                    <div>Last name <span class="asterisk"> *</span><br>
-                        <input type="text" class="smalltextField">
+                    <div><label for="lname">Last name<span class="asterisk"> *</span></label><br>
+                        <input type="text" class="smalltextField" id="lname">
                     </div>
                 </div>
-                <div class="bPad">Email <span class="asterisk"> *</span> <br>
-                    <input type="email" class="bigtextField">
+                <div class="bPad"><label for="email">Email <span class="asterisk"> *</span></label> <br>
+                    <input type="email" class="bigtextField" id="email">
                 </div>
-                <div class="bPad">Portfolio website <br>
-                    <input type="email" class="bigtextField" placeholder="https://ren-cosmos.com">
+                <div class="bPad"><label for="portfolio">Portfolio website</label> <br>
+                    <input type="email" class="bigtextField" placeholder="https://ren-cosmos.com" id="portfolio">
                 </div>
-                <div class="bPad">Position you are applying for<span class="asterisk"> *</span> <br>
-                    <input type="email" class="bigtextField">
-                </div>
-                <div class="bPad flex">
-                    <div>Salary Requirements<br>
-                        <input type="text" class="rmargin smalltextField">
-                    </div>
-                    <div>When can you start? <br>
-                        <input type="text" class="smalltextField">
-                    </div>
+                <div class="bPad"><label for="appliedPosition">Position you are applying for<span class="asterisk"> *</span></label> <br>
+                    <input type="email" class="bigtextField" id="appliedPosition">
                 </div>
                 <div class="bPad flex">
-                    <div>Phone <span class="asterisk"> *</span><br>
-                        <input type="text" class="rmargin smalltextField">
+                    <div><label for="salaryReq">Salary Requirements</label><br>
+                        <input type="text" class="rmargin smalltextField" id="salaryReq">
                     </div>
-                    <div>Fax <br>
-                        <input type="text" class="smalltextField">
+                    <div><label for="startDate">When can you start?</label> <br>
+                        <input type="text" class="smalltextField" id="startDate">
+                    </div>
+                </div>
+                <div class="bPad flex">
+                    <div><label for="phone">Phone <span class="asterisk"> *</span></label><br>
+                        <input type="text" class="rmargin smalltextField" id="phone">
+                    </div>
+                    <div><label for="fax"></label>Fax <br>
+                        <input type="text" class="smalltextField" id="fax">
                     </div>
                 </div>
                 <div class="bPad">Are you willing to relocate? <br>
-                    <input type="radio" name="radio" id="radio1"> Yes <br>
-                    <input type="radio" name="radio" id="radio2"> No <br>
-                    <input type="radio" name="radio" id="radio3"> Not sure <br>
+                    <input type="radio" name="radio" id="radio1"> <label for="radio1">Yes </label><br>
+                    <input type="radio" name="radio" id="radio2"> <label for="radio2">No </label><br>
+                    <input type="radio" name="radio" id="radio3"> <label for="radio3">Not sure </label><br>
                 </div>
-                <div class="bPad">Last company you worked for<br>
-                    <input type="email" class="bigtextField">
+                <div class="bPad"><label for="lastCompany">Last company you worked for</label><br>
+                    <input type="email" class="bigtextField" id="lastCompany">
                 </div>
-                <div class="bPad">Reference / Comments / Questions <br>
+                <div class="bPad"><label for="comments">Reference / Comments / Questions</label> <br>
                     <textarea name="comments" id="comments"></textarea>
                 </div>
                 <div class="bpad">
